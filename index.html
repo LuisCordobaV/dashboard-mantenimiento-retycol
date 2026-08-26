@@ -436,7 +436,9 @@ function fmtMonth(m) {
 // INSTRUCCIÓN: cambia esta URL por la URL raw de tu archivo Excel en GitHub.
 // Formato: https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/datos.xlsx
 // Mientras no esté configurado, el dashboard usa los datos precargados.
-const REPO_EXCEL_URL = 'https://github.com/LuisCordobaV/dashboard-mantenimiento-retycol/blob/main/datos.xlsx';  // ← pega aquí tu URL
+  //https://raw.githubusercontent.com/LuisCordobaV/dashboard-mantenimiento-retycol/main/datos.xlsx
+  //https://github.com/LuisCordobaV/dashboard-mantenimiento-retycol/blob/main/datos.xlsx
+const REPO_EXCEL_URL = 'https://raw.githubusercontent.com/LuisCordobaV/dashboard-mantenimiento-retycol/main/datos.xlsx';  // ← pega aquí tu URL
 
 async function autoLoadFromRepo() {
   if (!REPO_EXCEL_URL) {
